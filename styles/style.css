@@ -9,14 +9,14 @@ body{
     font-family: 'Overpass', sans-serif
 }
 
-.container{
+main{
     background-color:  hsl(213, 19%, 18%);
-    max-width: 350px;
+    max-width: 360px;
     border-radius: 30px;
     margin-bottom: 2rem;
 }
 #card, #thank-card{
-    margin: 30px;
+    margin: 34px;
 }
 #thank-card{
     display: none;
