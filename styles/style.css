@@ -1,0 +1,134 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Overpass', sans-serif
+}
+
+.container{
+    background-color:  hsl(213, 19%, 18%);
+    max-width: 350px;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+#card, #thank-card{
+    margin: 30px;
+}
+#thank-card{
+    display: none;
+}
+
+/* .star{
+    background-color: hsl(213, 19%, 18%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#star-icon{
+    background-color: hsl(216, 12%, 54%, 0.2);
+    border-radius: 50%;
+    padding: 0.75rem;
+
+}
+
+#txt1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#feedback{
+    font-size: 13px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+#rate-circle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+}
+
+#rate-circle p{
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    width: 20px;
+    background-color: hsl(216, 12%, 54%, 0.2);
+    border-radius: 50%;
+    padding: 0.7rem;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#rate-circle p:hover
+{
+color: hsl(0, 0%, 100%);
+background-color: hsl(216, 12%, 54%);
+}
+
+#btn{
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px hsl(25, 84%, 58%);
+    letter-spacing: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 2px 2px hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.icon{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#result{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%, 0.2);
+    border-radius: 25px;
+    padding: 5px;
+    max-width: 55%;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks{
+    font-weight: 700;
+    font-size: 1.5rem;
+text-align: center;
+}
+
+.appre{
+    font-size: 13px;
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
